@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b26">
+  <meta name="description" content="XV школьный медиафестиваль «Молодо не зелено!» — время твоих историй.">
+  <title>Молодо не зелено! — XV школьный медиафестиваль</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <div class="stars" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="На главную">
+      <span class="brand-mark">XV</span><span>ШКОЛЬНЫЙ<br>МЕДИАФЕСТИВАЛЬ</span>
+    </a>
+    <nav class="nav">
+      <a href="#about">О фестивале</a><a href="#nominations">Номинации</a><a href="#timeline">Этапы</a><a href="#rules">Условия</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Открыть меню">☰</button>
+    <a class="nav-cta" id="navApply" href="#apply">Подать заявку <span>↗</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> XV ШКОЛЬНЫЙ МЕДИАФЕСТИВАЛЬ <span class="year">2026</span></div>
+        <h1><span>МОЛОДО</span><em>НЕ ЗЕЛЕНО!</em></h1>
+        <p class="hero-sub">Время твоих историй<span class="gold-dot">.</span></p>
+        <p class="hero-desc">У каждого есть история. У каждой истории — свой кадр.<br>Покажи, как ты видишь мир.</p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" id="heroApply" href="#apply">Подать заявку <span>↗</span></a>
+          <a class="btn btn-ghost" href="#about">Исследовать фестиваль <span>↓</span></a>
+        </div>
+        <div class="hero-note"><span class="pulse"></span> ПРИЁМ РАБОТ ОТКРЫТ ДО 7 ДЕКАБРЯ</div>
+      </div>
+      <div class="hero-visual">
+        <div class="bomb-display hero-bomb" id="magicClock" title="Секунды до твоей истории">
+          <div class="bomb-top"><span class="bomb-led"></span><span>COUNTDOWN / LIVE</span><span class="bomb-code">XV—026</span></div>
+          <div class="bomb-readout compact-readout">
+            <div class="bomb-digit-group"><strong id="heroDays">00</strong><small>ДНЕЙ</small></div><b class="bomb-separator">:</b>
+            <div class="bomb-digit-group"><strong id="heroHours">00</strong><small>ЧАСОВ</small></div><b class="bomb-separator">:</b>
+            <div class="bomb-digit-group"><strong id="heroMinutes">00</strong><small>МИНУТ</small></div><b class="bomb-separator blink">:</b>
+            <div class="bomb-digit-group seconds-group"><strong id="heroSeconds">00</strong><small>СЕКУНД</small></div>
+          </div>
+          <div class="bomb-bottom"><span>ФИНАЛ · 11.12.2026</span><span class="bomb-warning">● СЧЁТ ИДЁТ</span></div>
+        </div>
+        <div class="camera camera-one">◉<span>REC</span></div>
+        <div class="camera camera-two">◉</div>
+        <div class="film-card card-a"><span>01</span><b>ИДЕЯ</b><small>начни с неё</small></div>
+        <div class="film-card card-b"><span>02</span><b>КАМЕРА</b><small>поймай момент</small></div>
+        <div class="film-strip"><div class="film-frame">✦</div><div class="film-frame">▶</div><div class="film-frame">✧</div></div>
+        <div class="hero-quote">Прошлое.<br>Настоящее.<br>Будущее —<br><b>в твоих руках!</b></div>
+      </div>
+      <div class="hero-bottomline"><span>УФА · 11 ДЕКАБРЯ 2026</span><span>ТВОЙ ВЗГЛЯД. ТВОЯ ИСТОРИЯ.</span><span>SCROLL TO EXPLORE ↓</span></div>
+    </section>
+
+    <section class="count-section">
+      <div class="section-kicker">ДО БОЛЬШОГО ФИНАЛА</div>
+      <div class="count-heading"><h2>ВРЕМЯ <span>НЕ ЖДЁТ.</span></h2><p>До церемонии награждения осталось</p></div>
+      <div class="bomb-display main-bomb" id="countdown">
+        <div class="bomb-top"><span class="bomb-led"></span><span>ДО НАЧАЛА ФИНАЛА</span><span class="bomb-code">LIVE TIMER</span></div>
+        <div class="bomb-readout">
+          <div class="bomb-digit-group"><strong id="days">00</strong><small>ДНЕЙ</small></div><b class="bomb-separator">:</b>
+          <div class="bomb-digit-group"><strong id="hours">00</strong><small>ЧАСОВ</small></div><b class="bomb-separator">:</b>
+          <div class="bomb-digit-group"><strong id="minutes">00</strong><small>МИНУТ</small></div><b class="bomb-separator blink">:</b>
+          <div class="bomb-digit-group seconds-group"><strong id="seconds">00</strong><small>СЕКУНД</small></div>
+        </div>
+        <div class="bomb-bottom"><span>11 ДЕКАБРЯ 2026 · 17:00 · УФА</span><span class="bomb-warning">● ОБРАТНЫЙ ОТСЧЁТ</span></div>
+      </div>
+      <div class="count-foot"><span class="tiny-star">✦</span> 11 ДЕКАБРЯ 2026 · 17:00 · УФА <span class="tiny-star">✦</span></div>
+    </section>
+
+    <section class="intro section" id="about">
+      <div class="section-kicker">01 / О ФЕСТИВАЛЕ</div>
+      <div class="intro-grid">
+        <div><h2>НЕ ПРОСТО<br><span>КОНКУРС.</span><br>ЭТО ТВОЙ КАДР.</h2></div>
+        <div class="intro-text"><p class="lead">«Молодо не зелено!» — пространство, где школьные идеи становятся настоящими медиаработами.</p><p>Снимай, фотографируй, пиши сценарии, монтируй и рассказывай истории. Неважно, делаешь ли ты это впервые или уже уверенно работаешь с камерой — здесь важен твой взгляд.</p><p class="signature">Прошлое. Настоящее. Будущее — в твоих руках.</p></div>
+      </div>
+      <div class="stat-row"><div><b>1–11</b><span>КЛАССЫ</span></div><div><b>6–18</b><span>ЛЕТ</span></div><div><b>12</b><span>НОМИНАЦИЙ</span></div><div><b>1</b><span>ТВОЯ ИСТОРИЯ</span></div></div>
+    </section>
+
+    <section class="nom-section section" id="nominations">
+      <div class="section-kicker">02 / ВЫБЕРИ СВОЙ ФОРМАТ</div>
+      <div class="section-title-row"><h2>ТВОЯ <span>НОМИНАЦИЯ</span></h2><p>Каждый формат — отдельный способ рассказать историю.</p></div>
+      <div class="nom-grid">
+        <article class="nom-card"><span class="nom-icon">♙</span><small>01</small><h3>Лучшая мужская роль</h3><p>Харизма, характер и убедительная игра.</p></article>
+        <article class="nom-card"><span class="nom-icon">♙</span><small>02</small><h3>Лучшая женская роль</h3><p>Образ, эмоция и сила перевоплощения.</p></article>
+        <article class="nom-card"><span class="nom-icon">★</span><small>03</small><h3>Дебют</h3><p>Первый шаг в большое медиаприключение.</p></article>
+        <article class="nom-card"><span class="nom-icon">◎</span><small>04</small><h3>Лучшая фото-работа</h3><p>Один кадр, который говорит больше слов.</p></article>
+        <article class="nom-card"><span class="nom-icon">▤</span><small>05</small><h3>Лучший сценарий</h3><p>История, от которой невозможно оторваться.</p></article>
+        <article class="nom-card"><span class="nom-icon">✂</span><small>06</small><h3>Лучший монтаж</h3><p>Ритм, детали и магия склейки.</p></article>
+        <article class="nom-card"><span class="nom-icon">▶</span><small>07</small><h3>Лучшая операторская работа</h3><p>Визуальный язык и выразительность кадра.</p></article>
+        <article class="nom-card featured"><span class="new-tag">НОВАЯ!</span><span class="nom-icon">AI</span><small>08</small><h3>Лучший нейросетевой ролик</h3><p>Технологии встречаются с воображением.</p></article>
+        <article class="nom-card"><span class="nom-icon">▣</span><small>09</small><h3>Лучший короткометражный фильм</h3><p>Целый мир в небольшом хронометраже.</p></article>
+        <article class="nom-card"><span class="nom-icon">♩</span><small>10</small><h3>Лучший репортаж</h3><p>Будь там, где происходит главное.</p></article>
+        <article class="nom-card"><span class="nom-icon">♧</span><small>11</small><h3>Приз зрительских симпатий</h3><p>Выбор тех, кого тронула твоя история.</p></article>
+        <article class="nom-card"><span class="nom-icon">◇</span><small>12</small><h3>Лучшее воплощение темы фестиваля</h3><p>Самая точная и яркая интерпретация темы.</p></article>
+      </div>
+    </section>
+
+    <section class="timeline-section section" id="timeline">
+      <div class="section-kicker">03 / НЕ ПРОПУСТИ ДАТЫ</div><h2>ТАЙМЛАЙН <span>ФЕСТИВАЛЯ</span></h2>
+      <div class="timeline">
+        <div class="timeline-item"><div class="timeline-date">ДО <b id="applicationDay">05</b> ДЕКАБРЯ</div><div class="timeline-dot"></div><div class="timeline-info"><small>ШАГ 01</small><h3>Подача заявки</h3><p>Заяви о себе и выбери номинацию.</p><span class="status">РЕГИСТРАЦИЯ</span></div></div>
+        <div class="timeline-item"><div class="timeline-date">ДО <b id="submissionDay">07</b> ДЕКАБРЯ</div><div class="timeline-dot"></div><div class="timeline-info"><small>ШАГ 02</small><h3>Приём работ</h3><p>Отправь готовую работу на конкурс.</p><span class="status">ЗАГРУЗКА РАБОТ</span></div></div>
+        <div class="timeline-item"><div class="timeline-date"><b>11</b> ДЕКАБРЯ · 17:00</div><div class="timeline-dot"></div><div class="timeline-info"><small>ШАГ 03</small><h3>Церемония награждения</h3><p>Встречаемся, чтобы увидеть лучшие истории и узнать имена победителей.</p><span class="status gold-status">БОЛЬШОЙ ФИНАЛ</span></div></div>
+      </div>
+    </section>
+
+    <section class="venue section">
+      <div class="venue-art"><div class="venue-ring">УФА<br><b>2026</b></div><span class="venue-cross">✦</span></div>
+      <div class="venue-copy"><div class="section-kicker">04 / ГДЕ МЫ ВСТРЕТИМСЯ</div><h2>УВИДИМСЯ<br><span>В КАДРЕ.</span></h2><p class="lead">Церемония награждения</p><p>г. Уфа, ул. Гагарина, 59<br>Актовый зал ЦО 159</p><div class="venue-date"><span id="eventDateLabel">11 ДЕКАБРЯ 2026</span> <b id="eventTimeLabel">17:00</b></div></div>
+    </section>
+
+    <section class="rules-section section" id="rules">
+      <div class="section-kicker">05 / ПЕРЕД ТЕМ КАК НАЖАТЬ REC</div><div class="section-title-row"><h2>ПРАВИЛА <span>ИГРЫ</span></h2><p>Немного технических деталей, чтобы твоя работа дошла до финала.</p></div>
+      <div class="rules-grid">
+        <div class="rule"><span>▶</span><div><h3>Видеоформат</h3><p>MP4 (предпочтительно), AVI</p></div></div>
+        <div class="rule"><span>▧</span><div><h3>Фотоработы</h3><p>JPEG, JPG, не менее 1980 px по длинной стороне</p></div></div>
+        <div class="rule"><span>◷</span><div><h3>Хронометраж</h3><p>Продолжительность видео: от 1 до 15 минут</p></div></div>
+        <div class="rule"><span>♧</span><div><h3>Главное условие</h3><p>Оригинальная идея, соответствие теме и уважение к законодательству РФ</p></div></div>
+      </div>
+    </section>
+
+    <section class="apply-section" id="apply">
+      <div class="apply-glow"></div><div class="section-kicker">06 / ТВОЙ ВЫХОД</div>
+      <h2>ТВОЯ ИСТОРИЯ<br><em>НАЧИНАЕТСЯ ЗДЕСЬ.</em></h2>
+      <p>Не откладывай идею на потом. Пусть её увидят.</p>
+      <div class="hero-actions centered"><a class="btn btn-gold" id="mainApply" href="#apply">Подать заявку <span>↗</span></a><a class="btn btn-ghost" id="worksApply" href="#apply">Отправить работу <span>↗</span></a></div>
+      <div class="apply-foot">XV ШКОЛЬНЫЙ МЕДИАФЕСТИВАЛЬ · «МОЛОДО НЕ ЗЕЛЕНО!»</div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#top"><span class="brand-mark">XV</span><span>МОЛОДО<br>НЕ ЗЕЛЕНО!</span></a><span>ВРЕМЯ ТВОИХ ИСТОРИЙ.</span><button id="adminOpen" class="admin-link">ОРГАНИЗАТОРАМ</button><span>© 2026</span></footer>
+
+  <div class="toast" id="toast"></div>
+  <div class="admin-backdrop" id="adminBackdrop">
+    <aside class="admin-panel">
+      <div class="admin-head"><div><small>XV MEDIA FESTIVAL</small><h2>ПАНЕЛЬ УПРАВЛЕНИЯ</h2></div><button id="adminClose" class="close-btn">×</button></div>
+      <p class="admin-warning">Изменения сохраняются в этом браузере. Чтобы опубликовать их для всех, скачай config.json и замени файл в репозитории GitHub.</p>
+      <div class="admin-tabs"><button class="tab active" data-tab="buttons">Кнопки</button><button class="tab" data-tab="dates">Даты и отсчёт</button><button class="tab" data-tab="general">Общее</button></div>
+      <div class="admin-content" id="tab-buttons">
+        <div class="edit-card"><h3>Подача заявки</h3><label>Текст кнопки<input data-path="buttons.apply.label"></label><label>Ссылка / URL<input data-path="buttons.apply.url" placeholder="https://..."></label><label class="switch-label">Кнопка активна <input type="checkbox" data-path="buttons.apply.enabled"></label></div>
+        <div class="edit-card"><h3>Отправить работу</h3><label>Текст кнопки<input data-path="buttons.submit.label"></label><label>Ссылка / URL<input data-path="buttons.submit.url" placeholder="https://..."></label><label class="switch-label">Кнопка активна <input type="checkbox" data-path="buttons.submit.enabled"></label></div>
+      </div>
+      <div class="admin-content hidden" id="tab-dates">
+        <div class="edit-card"><h3>Церемония награждения</h3><label>Дата и время (локальное время Уфы)<input type="datetime-local" data-path="dates.eventLocal"></label><p class="hint">Именно до этой даты идёт главный отсчёт на сайте.</p></div>
+        <div class="edit-card"><h3>Дедлайны</h3><label>Подача заявки<input type="date" data-path="dates.application"></label><label>Приём работ<input type="date" data-path="dates.submission"></label></div>
+      </div>
+      <div class="admin-content hidden" id="tab-general">
+        <div class="edit-card"><h3>Название фестиваля</h3><label>Заголовок<input data-path="general.title"></label><label>Слоган<input data-path="general.tagline"></label><label>Город<input data-path="general.city"></label><label>Адрес<input data-path="general.address"></label></div>
+      </div>
+      <div class="admin-actions"><button id="saveLocal" class="btn btn-ghost">Сохранить локально</button><button id="downloadConfig" class="btn btn-gold">Скачать config.json ↓</button><label class="import-btn">Загрузить config.json<input type="file" id="importConfig" accept="application/json"></label><button id="resetConfig" class="reset-btn">Сбросить настройки</button></div>
+      <div class="admin-foot">Панель не защищена паролем и не является серверной CMS. Не размещай в конфиге секретные данные.</div>
+    </aside>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "general": {
+    "title": "Молодо не зелено!",
+    "tagline": "Время твоих историй",
+    "city": "Уфа",
+    "address": "ул. Гагарина, 59 · Актовый зал ЦО 159"
+  },
+  "dates": {
+    "eventLocal": "2026-12-11T17:00",
+    "application": "2026-12-05",
+    "submission": "2026-12-07"
+  },
+  "buttons": {
+    "apply": {
+      "label": "СКОРО",
+      "url": "#apply",
+      "enabled": false
+    },
+    "submit": {
+      "label": "СКОРО",
+      "url": "#apply",
+      "enabled": false
+    }
+  }
+}
