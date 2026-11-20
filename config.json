@@ -12,9 +12,9 @@
   },
   "buttons": {
     "apply": {
-      "label": "СКОРО",
-      "url": "#apply",
-      "enabled": false
+      "label": "ПОДАТЬ ЗАЯВКУ",
+      "url": "https://forms.gle/YcvoswGLnoQomBoTA",
+      "enabled": true
     },
     "submit": {
       "label": "СКОРО",
